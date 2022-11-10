@@ -1,9 +1,8 @@
-namespace Reactangle
-{
 
-public class ReactangleArea
+
+public class rectangle
 {
-    public void Main()
+    public void RectangleArea()
     {
         Console.WriteLine("Enter the Length of a Rectangle: ");
         int Length = Convert.ToInt32(Console.ReadLine());
@@ -13,11 +12,11 @@ public class ReactangleArea
         Console.WriteLine("Area of Length " +Length+" and Width "+Width+" Area is "+Area);
         
     }
-}
 
-public class ReactanglePerimeter
-{
-    public void Main2()
+
+
+
+    public void RectanglePerimeter()
     {
         Console.WriteLine("Enter the Length of a Rectangle: ");
         double Length = Convert.ToInt32(Console.ReadLine());
@@ -27,5 +26,4 @@ public class ReactanglePerimeter
         Console.WriteLine("For Length " +Length+" and Width "+Width+" Perimeter is "+Perimeter);
         
     }
-}
 }

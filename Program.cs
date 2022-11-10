@@ -1,4 +1,4 @@
-﻿
+﻿rectangle any = new rectangle ();
 
 Console.WriteLine("What do you want measure?");
 Console.WriteLine("1 - Area");
@@ -7,13 +7,13 @@ int menu = Convert.ToInt32(Console.ReadLine());
 
 if (menu == 1)
 {
-    new Reactangle.ReactangleArea();
+    any.RectangleArea();
 }
 else
 {
     if (menu == 2)
     {
-        new Reactangle.ReactanglePerimeter();
+        any.RectanglePerimeter();
     }
     else
     {
